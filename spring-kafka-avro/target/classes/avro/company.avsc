@@ -1,0 +1,28 @@
+{
+  "namespace": "com.activity.dto",
+  "type": "record",
+  "name": "Company",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "companyName",
+      "type": "string"
+    },
+    {
+      "name": "companyType",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "address",
+      "type": "string"
+    },
+    {
+      "name": "statusCompany",
+      "type": "string"
+    }
+  ]
+}
